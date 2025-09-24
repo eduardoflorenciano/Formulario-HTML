@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+        </div>
+        <div>
+            <h2>Qual seu gênero?</h2>
+            <input type="radio" name="genero" id="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="genero" id="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+        <div>
+            <h2>Quais seus interesses?</h2>
+            <input type="checkbox" name="interesses" id="musica">
+            <label for="musica">Música</label>
+
+            <input type="checkbox" name="interesses" id="leitura">
+            <label for="leitura">Leitura</label>
+
+            <input type="checkbox" name="interesses" id="esportes">
+            <label for="esportes">Esportes</label>
+        </div>
+        <div>
+            <label for="mensagem">Deixe uma mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" rows="4" placeholder="Digite aqui"></textarea>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
